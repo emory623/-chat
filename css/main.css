@@ -1,0 +1,477 @@
+    @charset 'UTF-8';
+    html {
+        background-image: url(../img/bg.jpeg);
+        background-size: cover;
+    }
+    
+    body {
+        display: grid;
+    }
+    /*****MAIN CONTENT******/
+    
+    main {
+        box-sizing: border-box;
+        width: 1400px;
+        height: 800px;
+        display: grid;
+        grid-template-columns: 71.5px 261.5px 870px 201px;
+        justify-self: center;
+        align-self: center;
+    }
+    /*LEFT SIDEBAR*/
+    
+    .sidebar {
+        background-color: black;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        box-sizing: border-box;
+        padding-top: 12px;
+    }
+    /***********************SVETOFOR*******************/
+    
+    .top-icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        width: 52px;
+        height: 12px;
+        margin-bottom: 20px;
+    }
+    
+    .d1 {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: red;
+    }
+    
+    .d2 {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: orange;
+    }
+    
+    .d3 {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: lime;
+    }
+    
+    .top-ic {
+        width: 12px;
+        height: 12px;
+    }
+    /***********************ICONS*******************/
+    
+    .base-icons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .base_ic {
+        width: 42px;
+        height: 42px;
+        margin-bottom: 16px;
+    }
+    
+    .end_icons {
+        display: flex;
+        align-items: flex-end;
+        height: 360px;
+        margin-bottom: 20px;
+    }
+    
+    .end_ic {
+        width: 41.5px;
+        height: 41.5px;
+    }
+    /**********************NNNORMAD LIST***************************/
+    
+    aside {
+        background-color: #25272A;
+        color: #FFFFFF;
+        display: grid;
+    }
+    /***********************HEADER BLOCK*******************/
+    
+    .aside_header {
+        display: grid;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    
+    .d4 {
+        grid-area: d4;
+        justify-self: flex-end;
+    }
+    
+    .d5 {
+        grid-area: d5;
+    }
+    
+    .head_h {
+        grid-area: head_h;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        margin-right: 100px;
+    }
+    
+    .head_h2 {
+        grid-area: head_h2;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        margin-left: 10px;
+    }
+    
+    .d4,
+    .d5 {
+        width: 18px;
+        height: 18px;
+    }
+    /***********************CHANNELS BLOCK*******************/
+    
+    .aside_channels {
+        display: grid;
+        row-gap: 10px;
+        column-gap: 10px;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    
+    .as_ch_h1 {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 14px;
+        text-transform: uppercase;
+        color: #919191;
+    }
+    
+    .as_ch_h2 {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 14px;
+        margin-left: 150px;
+        text-transform: uppercase;
+        color: #919191;
+    }
+    
+    .num_chan {
+        display: grid;
+    }
+    
+    .num_channels {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+    }
+    
+    .active {
+        border-top: 5px;
+        border-right: 10px;
+        border-bottom: 5px;
+        border-left: 5px;
+        border-radius: 4%;
+        background-color: rgb(138, 138, 138);
+    }
+    /***********************FRIENDS BLOCK*******************/
+    
+    .aside_friends {
+        display: grid;
+        justify-content: center;
+        margin-bottom: 20px;
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+    
+    .friend {
+        margin-top: -17px;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 0.1fr 0.2fr 1fr;
+        gap: 7px;
+    }
+    
+    .d6 {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: lime;
+    }
+    
+    .d7 {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: grey;
+    }
+    
+    .friends_img {
+        width: 34px;
+    }
+    /**************MAIN CONTENT(CHAT)********************/
+    
+    .content {
+        background-color: #fff;
+        display: grid;
+    }
+    /***********************HEADER BLOCK*******************/
+    
+    .content_header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 79px;
+    }
+    
+    .right-header {
+        margin-left: 20px;
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+        align-items: center;
+    }
+    
+    .left-header {
+        display: grid;
+        grid-template-columns: 0.6fr 2.5fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .search {
+        width: 240px;
+        height: 33px;
+        border: 0.1px solid black;
+        border-radius: 3%;
+    }
+    
+    .head_icons {
+        width: 15px;
+    }
+    /***********************MAIN CONTENT CHAT*******************/
+    
+    .content_chat {
+        display: grid;
+        align-items: center;
+        margin-left: 20px;
+        height: 645.5px;
+    }
+    
+    .user-message {
+        display: grid;
+        grid-template-columns: 0.5fr 9fr;
+    }
+    
+    .u-m_items {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    
+    .user_name {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 14px;
+        color: #000000;
+    }
+    
+    .user_time {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        color: #8D8D8D;
+    }
+    
+    .user_mess {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 20px;
+        color: #000000;
+    }
+    
+    #user_mess_nn {
+        margin-top: -10px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 20px;
+        color: #000000;
+    }
+    
+    #user_mess_rr {
+        margin-top: -20px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 20px;
+        color: #000000;
+    }
+    
+    .user_image {
+        width: 300px;
+    }
+    
+    .user_photo {
+        width: 30px;
+    }
+    /***********************FOOTER BLOCK*******************/
+    
+    .content_footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 71.5px;
+    }
+    
+    .cffirst_items {
+        display: grid;
+        margin-left: 20px;
+        grid-template-columns: 0.5fr 0.5fr 6fr;
+        justify-content: center;
+    }
+    
+    .c-f_icons {
+        height: 22px;
+        opacity: 40%;
+    }
+    
+    .c-f_mess {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: #8D8D8D;
+    }
+    
+    .cfsec_items {
+        display: flex;
+        margin-right: 20px;
+        flex-direction: row-reverse;
+    }
+    /**************RIGHT SECTION(PROFILE)********************/
+    
+    section {
+        width: 201px;
+        height: 833px;
+        background: rgb(192, 192, 192);
+    }
+    
+    .sectionin {
+        background: rgb(192, 192, 192);
+        display: grid;
+        justify-items: center;
+        height: 504px;
+    }
+    /***********************HEADER BLOCK(PORTRAIT, NAME)*******************/
+    
+    .sec_portrait {
+        width: 201px;
+    }
+    
+    .sec_names {
+        justify-items: center;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .sec_name {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+    }
+    
+    .sec_subname {
+        display: grid;
+        justify-self: flex-start;
+        margin-left: 15px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        color: #5F6164;
+    }
+    /***********************ICONS*******************/
+    
+    .sec_icons {
+        column-gap: 10px;
+        display: grid;
+        justify-content: space-evenly;
+        grid-template-columns: 0.1fr 0.1fr 0.1fr 0.1fr;
+    }
+    
+    .sec_inc {
+        width: 18px;
+    }
+    
+    .sec_buttons {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 15px;
+    }
+    
+    .sec_button1 {
+        width: 134px;
+        height: 25px;
+    }
+    
+    .sec_button2 {
+        width: 25px;
+        height: 25px;
+        margin-left: 5px;
+    }
+    /***********************PROFILE FORM*******************/
+    
+    .sec_form {
+        display: grid;
+        justify-content: center;
+    }
+    
+    .sec_forms1 {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 14px;
+        color: #5F6164;
+    }
+    
+    .sec_forms2 {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+    }
